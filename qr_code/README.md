@@ -28,8 +28,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/SuperMustard/FrontendMentor/tree/master/qr_code)
+- Live Site URL: [Live Site URL](https://supermustard.github.io/FrontendMentor/qr_code/index.html)
 
 ## My process
 
