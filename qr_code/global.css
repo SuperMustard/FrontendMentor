@@ -1,0 +1,79 @@
+:root {
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--light-gray);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--white);
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qrContainer {
+  margin-top: 16px;
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background-image: url("./images/image-qr-code.png");
+  background-size: contain;
+}
+
+.qrContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.textContainer {
+  width: 288px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textContainer h4 {
+  font-size: 22px;
+  color: var(--dark-blue);
+  text-align: center;
+  font-weight: 700;
+}
+
+.textContainer p {
+  width: 256px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 16px;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
