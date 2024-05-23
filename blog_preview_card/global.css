@@ -13,29 +13,26 @@
   --Black: hsl(0, 0%, 7%);
 }
 
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: var(--Yellow);
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer {
   position: absolute;
   bottom: 0;
-  display: flex;
-  align-content: center;
-  justify-content: center;
 }
 
 section {
   position: relative;
-  display: flex;
   width: 384px;
-  /* height: 642px; */
-  align-items: center;
   flex-direction: column;
   background-color: var(--White);
   border-radius: 20px;
@@ -50,11 +47,12 @@ section:hover {
   box-shadow: 16px 16px 0px;
 }
 
+section:focus {
+  box-shadow: 16px 16px 0px;
+}
+
 .imageContainer {
-  display: flex;
   position: relative;
-  align-content: center;
-  justify-content: center;
   height: 200px;
   width: auto;
   overflow: hidden;
@@ -70,7 +68,6 @@ section:hover {
 
 .textContainer {
   position: relative;
-  display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
@@ -95,14 +92,14 @@ section:hover {
   align-items: flex-start;
 }
 
-.desc h6 {
+.desc h2 {
   font-size: 14px;
   font-weight: normal;
   color: black;
   font-weight: 500;
 }
 
-.desc h4 {
+.desc h1 {
   font-size: 24px;
   font-weight: 800;
 }
@@ -114,10 +111,8 @@ section:hover {
 }
 
 .userInfo {
-  display: flex;
   width: 100%;
   justify-content: flex-start;
-  align-items: center;
   padding-left: 24px;
   gap: 12px;
 }
