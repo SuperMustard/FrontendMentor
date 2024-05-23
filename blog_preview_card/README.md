@@ -22,12 +22,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/291a7086-0f79-4d7c-9e50-974539c7b136)
+
+when active:
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/a43b902a-2cdd-4769-8fd5-bfe34e924627)
+
+In mobile mode:
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/dfb4a633-3353-42c6-8fef-b9becdd70891)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/SuperMustard/FrontendMentor/edit/master/blog_preview_card/)
+- Live Site URL: [Live](https://supermustard.github.io/FrontendMentor/blog_preview_card/index.html)
 
 ## My process
 
