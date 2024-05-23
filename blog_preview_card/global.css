@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  transition-duration: 0.5s;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Yellow: hsl(47, 88%, 63%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--Yellow);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  width: 384px;
+  /* height: 642px; */
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--White);
+  border-radius: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 24px;
+  border: 1px solid;
+  box-shadow: 8px 8px 0px;
+}
+
+section:hover {
+  box-shadow: 16px 16px 0px;
+}
+
+.imageContainer {
+  display: flex;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+  width: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.imageContainer img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.textContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 12px;
+  padding-left: 24px;
+}
+
+.tag {
+  background-color: var(--Yellow);
+  font-size: 14px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 4px;
+  line-height: 150%;
+}
+
+.desc {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.desc h6 {
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  font-weight: 500;
+}
+
+.desc h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.desc p {
+  font-size: 16px;
+  color: var(--Grey);
+  font-weight: 500;
+}
+
+.userInfo {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+  gap: 12px;
+}
+
+.userInfo p {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.userImg {
+  height: 32px;
+  width: 32px;
+}
+
+.userImg img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    width: 328px;
+  }
+}
