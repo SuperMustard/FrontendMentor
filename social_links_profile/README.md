@@ -21,13 +21,19 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+Desktop:
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/82ad35b6-ff3b-448f-bbb4-5be1b0b81fa1)
 
-![](./screenshot.jpg)
+Mobile:
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/9be3deaf-0bda-4387-a24a-46d7ffd8a391)
+
+Hover:
+![image](https://github.com/SuperMustard/FrontendMentor/assets/6720652/616e112e-6bc9-490b-9baa-86d752cbfdd5)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/SuperMustard/FrontendMentor/edit/master/social_links_profile/)
+- Live Site URL: [Live](https://supermustard.github.io/FrontendMentor/social_links_profile/index.html)
 
 ## My process
 
