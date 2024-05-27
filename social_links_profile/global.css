@@ -1,0 +1,135 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Off-Black);
+}
+
+section {
+  width: 384px;
+  padding: 40px 0px;
+  flex-direction: column;
+  background-color: var(--Dark-Grey);
+  gap: 24px;
+  border-radius: 12px;
+}
+
+.bioPicContainer {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.bioPicContainer img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.nameContainer {
+  padding: 0px 40px;
+  flex-direction: column;
+}
+
+.nameContainer h1 {
+  color: var(--White);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nameContainer h2 {
+  color: var(--Green);
+  font-weight: 600;
+}
+
+.bioText {
+  color: var(--White);
+  font-weight: 200;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  gap: 16px;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+li {
+  width: 100%;
+  text-align: center;
+  color: var(--White);
+  padding: 12px 4px;
+  background-color: var(--Grey);
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+li:first-child {
+  margin-top: 0px;
+}
+
+li:hover {
+  background-color: var(--Green);
+  color: var(--Dark-Grey);
+  font-weight: 600;
+}
+
+li a {
+  color: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: var(--White);
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  color: var(--White);
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    width: 327px;
+  }
+}
