@@ -44,6 +44,7 @@ body {
   width: 100%;
   background-color: var(--eggshell);
   flex-direction: column;
+  padding: 123px 0;
 }
 
 footer {
@@ -88,7 +89,8 @@ h2 {
   line-height: 100%;
 }
 
-h3 {
+.preparation h2 {
+  font-size: 1rem;
   color: var(--dark-raspberry);
   font-weight: 700;
 }
